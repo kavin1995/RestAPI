@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.runnerClass.RunnerClass
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.274 sec
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.608 sec

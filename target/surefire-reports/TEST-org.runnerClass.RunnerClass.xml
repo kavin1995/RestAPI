@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="20" failures="0" name="org.runnerClass.RunnerClass" time="17.267" errors="0" skipped="0">
+<testsuite tests="20" failures="0" name="org.runnerClass.RunnerClass" time="17.607" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
@@ -62,24 +62,24 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Verifying the git data page" name="Verify the git data details #1" time="4.849"/>
-  <testcase classname="Verifying the git data page" name="Verify the git data details #2" time="1.701"/>
-  <testcase classname="Verifying the git data page" name="Verify the git data details #3" time="0.489"/>
-  <testcase classname="Verifying the git data page" name="Verify the git data details #4" time="0.491"/>
-  <testcase classname="Verifying the git data page" name="Verify the git data details #5" time="0.493"/>
-  <testcase classname="Verifying the git data page" name="Verify the git create details #1" time="1.16"/>
-  <testcase classname="Verifying the git data page" name="Verify the git create details #2" time="0.431"/>
-  <testcase classname="Verifying the git data page" name="Verify the git create details #3" time="0.448"/>
-  <testcase classname="Verifying the git data page" name="Verify the git create details #4" time="0.482"/>
-  <testcase classname="Verifying the git data page" name="Verify the git create details #5" time="0.454"/>
-  <testcase classname="Verifying the git data page" name="Verify the git create details #6" time="0.492"/>
-  <testcase classname="Verifying the git data page" name="Verify the git create details #7" time="0.45"/>
-  <testcase classname="Verifying the git data page" name="Verify the patch create details #1" time="0.806"/>
-  <testcase classname="Verifying the git data page" name="Verify the patch create details #2" time="0.453"/>
-  <testcase classname="Verifying the git data page" name="Verify the patch create details #3" time="0.49"/>
-  <testcase classname="Verifying the git data page" name="Verify the patch create details #4" time="0.486"/>
-  <testcase classname="Verifying the git data page" name="Verify the patch create details #5" time="0.467"/>
-  <testcase classname="Verifying the git data page" name="Verify the patch create details #6" time="0.457"/>
-  <testcase classname="Verifying the git data page" name="Verify the delete create details" time="0.555"/>
-  <testcase classname="Verifying the git data page" name="Verify the delete details" time="0.362"/>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #1" time="4.389"/>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #2" time="2.063"/>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #3" time="0.626"/>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #4" time="0.421"/>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #5" time="0.455"/>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #1" time="1.147"/>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #2" time="0.435"/>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #3" time="0.527"/>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #4" time="0.403"/>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #5" time="0.459"/>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #6" time="0.445"/>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #7" time="0.459"/>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #1" time="0.867"/>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #2" time="0.614"/>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #3" time="0.431"/>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #4" time="0.491"/>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #5" time="0.569"/>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #6" time="0.55"/>
+  <testcase classname="Verifying the git data page" name="Verify the delete create details" time="0.434"/>
+  <testcase classname="Verifying the git data page" name="Verify the delete details" time="0.372"/>
 </testsuite>
