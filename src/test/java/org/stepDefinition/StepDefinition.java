@@ -1,6 +1,10 @@
 package org.stepDefinition;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 
 import org.bassClass.BassClass;
@@ -17,6 +21,7 @@ public class StepDefinition extends BassClass {
 	RequestSpecification reqspec;
 	Response res;
 	private String string;
+	public String repon;
 	
 	@Given("User should login the page")
 	public void user_should_login_the_page() throws FileNotFoundException, IOException {
@@ -82,7 +87,14 @@ public class StepDefinition extends BassClass {
 	}
 
 	@Then("User should verify the create reponce")
-	public void user_should_verify_the_create_reponce() {
+	public void user_should_verify_the_create_reponce() throws IOException {
+		repon = res.jsonPath().getString("name");
+		 FileWriter writer = new FileWriter("C:\\Users\\VDI022\\eclipse-workspace\\RestAPI\\Data.txt");  
+		    BufferedWriter buffer = new BufferedWriter(writer);  
+		    buffer.write(repon);  
+		    buffer.close();  
+		System.out.println("repon = "+repon);
+		
 		int statusCode = res.statusCode();
 		 System.out.println(statusCode);
 	    Assert.assertEquals(201 ,statusCode);
@@ -236,5 +248,34 @@ public class StepDefinition extends BassClass {
 	    System.out.println(delete);
 	    Assert.assertEquals(delete, 404);
 	}
+	@Given("User should get create the webhook")
+	public void user_should_get_create_the_webhook() throws FileNotFoundException, IOException {
+		FileReader fr=new FileReader("C:\\Users\\VDI022\\eclipse-workspace\\RestAPI\\Data.txt");    
+        BufferedReader br=new BufferedReader(fr);    
+           String i;
+        while((i=br.readLine())!=null){ 
+        	//String i = String.valueOf(fr); 
+        repon = i;
+        }  
+        br.close();    
+        fr.close();       
+		RestAssured.baseURI="https://api.github.com/repos/kavin1995/"+repon+"/hooks";
+	   System.out.println("repon in webhook = "+repon);
+	      //https://api.github.com/repos/OWNER/REPO/hooks \
+	   reqspec=RestAssured.given().header("Authorization",getproperty("Bearer")).body("{\"name\":\"web\",\"active\":true,\"events\":[\"push\",\"pull_request\"],\"config\":{\"url\":\"https://github.com/vinay5695/ApiDemo.git/webhook\",\"content_type\":\"json\",\"insecure_ssl\":\"0\"}}");
+	}
+	@When("User should send the post request")
+	public void user_should_send_the_post_request() {
+	    res=reqspec.post();
+	}
+	@Then("User should verify the responce code")
+	public void user_should_verify_the_responce_code() {
+	   int code = res.statusCode();
+	   System.out.println(code);
+	   Assert.assertEquals(201, code);
+	}
+
+
+
 
 }

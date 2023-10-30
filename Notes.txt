@@ -1,0 +1,5 @@
+POINTS:
+=======
+
+1. TO run by a commendline or jenkins = mvn test -Dtest=RunnerClass ==> Runnerclass represent, where need to triger the project.
+2. This testcase has to store the value in notepad by using bufferwriter and bufferreader.

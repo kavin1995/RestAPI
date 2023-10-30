@@ -59,6 +59,11 @@ Given User should get the page s
 When User should create get the responce 
 Then User should verify the create avatar_url 
 
+Scenario: verify the created webhook 
+Given User should get create the webhook 
+When User should send the post request
+Then User should verify the responce code
+
 Scenario: Verify the patch create details
 Given User should patch the name
 When User should create patch the responce 
@@ -97,3 +102,6 @@ Scenario: Verify the delete details
 Given User should  get deleted the name
 When User should get deleted the responce 
 Then User should verify the responce of deleted
+
+
+
