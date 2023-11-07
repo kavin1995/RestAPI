@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="21" failures="17" name="org.runnerClass.RunnerClass" time="11.344" errors="2" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.boot.library.path" value="C:\Users\VDI022\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\VDI022\eclipse-workspace\RestAPI"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="RunnerClass"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\VDI022\eclipse-workspace\RestAPI"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VDI022\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\VDI022\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17268121640380230008.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\VDI022\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/VDI022/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/VDI022/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\GuptaEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\ToscaCommander;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DelphiEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\PBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\VBEngine;C:\Program Files (x86)\TRICENTIS\Tosca Testsuite\Classic\dll\DotNetHooking;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.5\bin;C:\Users\VDI022\AppData\Local\Microsoft\WindowsApps;;C:\Users\VDI022\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\VDI022\AppData\Roaming\npm;C:\Users\VDI022\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\VDI022"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="VDI022"/>
+    <property name="java.class.path" value="C:\Users\VDI022\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test -Dtest=RunnerClass"/>
+    <property name="java.home" value="C:\Users\VDI022\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\VDI022\eclipse-workspace\RestAPI\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="m2e.build.project.data.socket.port" value="55444"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #1" time="3.003">
+    <failure message="expected:&lt;200&gt; but was:&lt;401&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;401&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce(StepDefinition.java:43)
+	at ✽.User should verify the responce(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:6)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+401
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #2" time="1.201">
+    <failure message="expected:&lt;null&gt; but was:&lt;false&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;false&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_name(StepDefinition.java:58)
+	at ✽.User should verify the responce name(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:11)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #3" time="0.415">
+    <error message="Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;java.lang.Integer.intValue()&quot; because the return value of &quot;io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)&quot; is null
+	at io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_id(StepDefinition.java:49)
+	at ✽.User should verify the responce id(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:16)
+</error>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #4" time="0.382">
+    <failure message="expected:&lt;null&gt; but was:&lt;Testcases&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;Testcases&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_private(StepDefinition.java:65)
+	at ✽.User should verify the private(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:21)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git data details #5" time="0.394">
+    <failure message="expected:&lt;null&gt; but was:&lt;kavin1995/Testcases&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;kavin1995/Testcases&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_fullname(StepDefinition.java:72)
+	at ✽.User should verify the fullname(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:26)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #1" time="0.396">
+    <error message="Cannot invoke &quot;String.length()&quot; because &quot;str&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.length()&quot; because &quot;str&quot; is null
+	at java.base/java.io.Writer.write(Writer.java:249)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_reponce(StepDefinition.java:94)
+	at ✽.User should verify the create reponce(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:31)
+</error>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #2" time="0.338"/>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #3" time="0.37">
+    <failure message="expected:&lt;200&gt; but was:&lt;401&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;401&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_get_reponce(StepDefinition.java:121)
+	at ✽.User should verify the get reponce(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:40)
+</failure>
+    <system-out>401
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #4" time="0.387">
+    <failure message="expected:&lt;Rest&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;Rest&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_created_reponce_name(StepDefinition.java:128)
+	at ✽.User should verify the created reponce name(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:45)
+</failure>
+    <system-out>null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #5" time="0.383">
+    <failure message="expected:&lt;false&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;false&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_reponce_private(StepDefinition.java:135)
+	at ✽.User should verify the create reponce private(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:50)
+</failure>
+    <system-out>null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #6" time="0.359">
+    <failure message="expected:&lt;null&gt; but was:&lt;kavin1995/Rest&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;kavin1995/Rest&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_reponce_fullname(StepDefinition.java:142)
+	at ✽.User should verify the create reponce fullname(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:55)
+</failure>
+    <system-out>null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the git create details #7" time="0.417">
+    <failure message="expected:&lt;null&gt; but was:&lt;https://avatars.githubusercontent.com/u/127470271?v=4&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;https://avatars.githubusercontent.com/u/127470271?v=4&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_avatar_url(StepDefinition.java:149)
+	at ✽.User should verify the create avatar_url(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:60)
+</failure>
+    <system-out>null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="verify the created webhook" time="0.379">
+    <failure message="expected:&lt;201&gt; but was:&lt;401&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;201&gt; but was:&lt;401&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_code(StepDefinition.java:275)
+	at ✽.User should verify the responce code(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:65)
+</failure>
+    <system-out>repon in webhook = null
+401
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #1" time="0.355"/>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #2" time="0.358">
+    <failure message="expected:&lt;200&gt; but was:&lt;401&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;401&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch(StepDefinition.java:182)
+	at ✽.User should verify the responce of patch(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:74)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+401
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #3" time="0.361">
+    <failure message="expected:&lt;APIRest&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;APIRest&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch_name(StepDefinition.java:189)
+	at ✽.User should verify the responce of patch name(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:79)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #4" time="0.395">
+    <failure message="expected:&lt;https://avatars.githubusercontent.com/u/127470271?v=4&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;https://avatars.githubusercontent.com/u/127470271?v=4&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch_avatarurl(StepDefinition.java:197)
+	at ✽.User should verify the responce of patch avatarurl(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:84)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #5" time="0.374">
+    <failure message="expected:&lt;kavin1995/APIRest&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;kavin1995/APIRest&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch_fullname(StepDefinition.java:204)
+	at ✽.User should verify the responce of patch fullname(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:89)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the patch create details #6" time="0.38">
+    <failure message="expected:&lt;https://github.com/kavin1995&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;https://github.com/kavin1995&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch_path(StepDefinition.java:211)
+	at ✽.User should verify the responce of patch path(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:94)
+</failure>
+    <system-out>{
+    &quot;message&quot;: &quot;Bad credentials&quot;,
+    &quot;documentation_url&quot;: &quot;https://docs.github.com/rest&quot;
+}
+null
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the delete create details" time="0.371">
+    <failure message="expected:&lt;204&gt; but was:&lt;401&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;204&gt; but was:&lt;401&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_delete_code(StepDefinition.java:230)
+	at ✽.User should verify the delete code(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:99)
+</failure>
+    <system-out>401
+</system-out>
+  </testcase>
+  <testcase classname="Verifying the git data page" name="Verify the delete details" time="0.326">
+    <failure message="expected:&lt;401&gt; but was:&lt;404&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;401&gt; but was:&lt;404&gt;
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_deleted(StepDefinition.java:249)
+	at ✽.User should verify the responce of deleted(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:104)
+</failure>
+    <system-out>401
+</system-out>
+  </testcase>
+</testsuite>

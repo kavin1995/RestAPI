@@ -1,0 +1,169 @@
+-------------------------------------------------------------------------------
+Test set: org.runnerClass.RunnerClass
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 17, Errors: 2, Skipped: 0, Time elapsed: 13.04 sec <<< FAILURE!
+Verify the git data details #1(Verifying the git data page)  Time elapsed: 3.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce(StepDefinition.java:43)
+	at ✽.User should verify the responce(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:6)
+
+Verify the git data details #2(Verifying the git data page)  Time elapsed: 1.201 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_name(StepDefinition.java:58)
+	at ✽.User should verify the responce name(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:11)
+
+Verify the git data details #3(Verifying the git data page)  Time elapsed: 0.415 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "io.restassured.internal.common.path.ObjectConverter.convertObjectTo(Object, java.lang.Class)" is null
+	at io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_id(StepDefinition.java:49)
+	at ✽.User should verify the responce id(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:16)
+
+Verify the git data details #4(Verifying the git data page)  Time elapsed: 0.382 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<Testcases>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_private(StepDefinition.java:65)
+	at ✽.User should verify the private(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:21)
+
+Verify the git data details #5(Verifying the git data page)  Time elapsed: 0.394 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<kavin1995/Testcases>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_fullname(StepDefinition.java:72)
+	at ✽.User should verify the fullname(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:26)
+
+Verify the git create details #1(Verifying the git data page)  Time elapsed: 0.396 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.length()" because "str" is null
+	at java.base/java.io.Writer.write(Writer.java:249)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_reponce(StepDefinition.java:94)
+	at ✽.User should verify the create reponce(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:31)
+
+Verify the git create details #3(Verifying the git data page)  Time elapsed: 0.37 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_get_reponce(StepDefinition.java:121)
+	at ✽.User should verify the get reponce(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:40)
+
+Verify the git create details #4(Verifying the git data page)  Time elapsed: 0.387 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Rest> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_created_reponce_name(StepDefinition.java:128)
+	at ✽.User should verify the created reponce name(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:45)
+
+Verify the git create details #5(Verifying the git data page)  Time elapsed: 0.383 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_reponce_private(StepDefinition.java:135)
+	at ✽.User should verify the create reponce private(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:50)
+
+Verify the git create details #6(Verifying the git data page)  Time elapsed: 0.359 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<kavin1995/Rest>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_reponce_fullname(StepDefinition.java:142)
+	at ✽.User should verify the create reponce fullname(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:55)
+
+Verify the git create details #7(Verifying the git data page)  Time elapsed: 0.417 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<null> but was:<https://avatars.githubusercontent.com/u/127470271?v=4>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_avatar_url(StepDefinition.java:149)
+	at ✽.User should verify the create avatar_url(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:60)
+
+verify the created webhook(Verifying the git data page)  Time elapsed: 0.379 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_code(StepDefinition.java:275)
+	at ✽.User should verify the responce code(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:65)
+
+Verify the patch create details #2(Verifying the git data page)  Time elapsed: 0.358 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch(StepDefinition.java:182)
+	at ✽.User should verify the responce of patch(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:74)
+
+Verify the patch create details #3(Verifying the git data page)  Time elapsed: 0.361 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<APIRest> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch_name(StepDefinition.java:189)
+	at ✽.User should verify the responce of patch name(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:79)
+
+Verify the patch create details #4(Verifying the git data page)  Time elapsed: 0.395 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<https://avatars.githubusercontent.com/u/127470271?v=4> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch_avatarurl(StepDefinition.java:197)
+	at ✽.User should verify the responce of patch avatarurl(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:84)
+
+Verify the patch create details #5(Verifying the git data page)  Time elapsed: 0.374 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<kavin1995/APIRest> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch_fullname(StepDefinition.java:204)
+	at ✽.User should verify the responce of patch fullname(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:89)
+
+Verify the patch create details #6(Verifying the git data page)  Time elapsed: 0.38 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<https://github.com/kavin1995> but was:<null>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_patch_path(StepDefinition.java:211)
+	at ✽.User should verify the responce of patch path(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:94)
+
+Verify the delete create details(Verifying the git data page)  Time elapsed: 0.371 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<204> but was:<401>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_delete_code(StepDefinition.java:230)
+	at ✽.User should verify the delete code(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:99)
+
+Verify the delete details(Verifying the git data page)  Time elapsed: 0.326 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<401> but was:<404>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_responce_of_deleted(StepDefinition.java:249)
+	at ✽.User should verify the responce of deleted(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:104)
+

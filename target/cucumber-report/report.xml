@@ -1,132 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="5.214" tests="2" skipped="0" failures="1" errors="0">
-<testcase classname="Verifying the git data page" name="Verify the git create details" time="4.757">
+<testsuite name="Cucumber" time="15.295" tests="21" skipped="0" failures="0" errors="0">
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="3.224">
+<system-out><![CDATA[
+Given User should login the page............................................passed
+When User should get the responce...........................................passed
+Then User should verify the responce........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="1.524">
+<system-out><![CDATA[
+Given User should login the page............................................passed
+When User should get the responce...........................................passed
+Then User should verify the responce name...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.467">
+<system-out><![CDATA[
+Given User should login the page............................................passed
+When User should get the responce...........................................passed
+Then User should verify the responce id.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.449">
+<system-out><![CDATA[
+Given User should login the page............................................passed
+When User should get the responce...........................................passed
+Then User should verify the private.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.537">
+<system-out><![CDATA[
+Given User should login the page............................................passed
+When User should get the responce...........................................passed
+Then User should verify the fullname........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="1.032">
 <system-out><![CDATA[
 Given User should login the page s..........................................passed
 When User should create the responce........................................passed
 Then User should verify the create reponce..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="verify the created webhook" time="0.032">
-<failure type="java.net.URISyntaxException" message="Illegal character in path at index 39: https://api.github.com/repos/kavin1995/{{repon}}/hooks">
-<![CDATA[java.net.URISyntaxException: Illegal character in path at index 39: https://api.github.com/repos/kavin1995/{{repon}}/hooks
-	at java.base/java.net.URI$Parser.fail(URI.java:2974)
-	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
-	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
-	at java.base/java.net.URI$Parser.parse(URI.java:3175)
-	at java.base/java.net.URI.<init>(URI.java:623)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.RequestSpecificationImpl.getTargetPath(RequestSpecificationImpl.groovy:1388)
-	at io.restassured.internal.RequestSpecificationImpl.this$2$getTargetPath(RequestSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.RequestSpecificationImpl.partiallyApplyPathParams(RequestSpecificationImpl.groovy:1733)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1089)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1702)
-	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)
-	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
-	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)
-	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
-	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1348)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1103)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1009)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:792)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:260)
-	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)
-	at org.stepDefinition.StepDefinition.user_should_send_the_post_request(StepDefinition.java:252)
-	at ✽.User should send the post request(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:103)
-]]>
-</failure>
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.415">
+<system-out><![CDATA[
+Given User should get the page s............................................passed
+When User should create get the responce....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.436">
+<system-out><![CDATA[
+Given User should get the page s............................................passed
+When User should create get the responce....................................passed
+Then User should verify the get reponce.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.458">
+<system-out><![CDATA[
+Given User should get the page s............................................passed
+When User should create get the responce....................................passed
+Then User should verify the created reponce name............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.439">
+<system-out><![CDATA[
+Given User should get the page s............................................passed
+When User should create get the responce....................................passed
+Then User should verify the create reponce private..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.446">
+<system-out><![CDATA[
+Given User should get the page s............................................passed
+When User should create get the responce....................................passed
+Then User should verify the create reponce fullname.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.439">
+<system-out><![CDATA[
+Given User should get the page s............................................passed
+When User should create get the responce....................................passed
+Then User should verify the create avatar_url...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="verify the created webhook" time="0.5">
 <system-out><![CDATA[
 Given User should get create the webhook....................................passed
-When User should send the post request......................................failed
-Then User should verify the responce code...................................skipped
+When User should send the post request......................................passed
+Then User should verify the responce code...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.835">
+<system-out><![CDATA[
+Given User should patch the name............................................passed
+When User should create patch the responce..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.429">
+<system-out><![CDATA[
+Given User should  get patch the name.......................................passed
+When User should get patch the responce.....................................passed
+Then User should verify the responce of patch...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.489">
+<system-out><![CDATA[
+Given User should  get patch the name.......................................passed
+When User should get patch the responce.....................................passed
+Then User should verify the responce of patch name..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.451">
+<system-out><![CDATA[
+Given User should  get patch the name.......................................passed
+When User should get patch the responce.....................................passed
+Then User should verify the responce of patch avatarurl.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.487">
+<system-out><![CDATA[
+Given User should  get patch the name.......................................passed
+When User should get patch the responce.....................................passed
+Then User should verify the responce of patch fullname......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.473">
+<system-out><![CDATA[
+Given User should  get patch the name.......................................passed
+When User should get patch the responce.....................................passed
+Then User should verify the responce of patch path..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the delete create details" time="0.562">
+<system-out><![CDATA[
+Given User should  delete the name..........................................passed
+When User should get delete the responce....................................passed
+Then User should verify the delete code.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying the git data page" name="Verify the delete details" time="0.358">
+<system-out><![CDATA[
+Given User should  get deleted the name.....................................passed
+When User should get deleted the responce...................................passed
+Then User should verify the responce of deleted.............................passed
 ]]></system-out>
 </testcase>
 </testsuite>
