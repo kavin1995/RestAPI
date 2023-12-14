@@ -89,7 +89,7 @@ public class StepDefinition extends BassClass {
 	@Then("User should verify the create reponce")
 	public void user_should_verify_the_create_reponce() throws IOException {
 		repon = res.jsonPath().getString("name");
-		 FileWriter writer = new FileWriter("C:\\\\Jenkins\\\\Packages\\\\RestAPI\\\\Data.txt");  
+		 FileWriter writer = new FileWriter("C:\\Users\\VDI022\\eclipse-workspace\\RestAPI\\Data.txt");  
 		    BufferedWriter buffer = new BufferedWriter(writer);  
 		    buffer.write(repon);  
 		    buffer.close();  
@@ -250,7 +250,7 @@ public class StepDefinition extends BassClass {
 	}
 	@Given("User should get create the webhook")
 	public void user_should_get_create_the_webhook() throws FileNotFoundException, IOException {
-		FileReader fr=new FileReader("C:\\Jenkins\\Packages\\RestAPI\\Data.txt");    
+		FileReader fr=new FileReader("C:\\Users\\VDI022\\eclipse-workspace\\RestAPI\\Data.txt");    
         BufferedReader br=new BufferedReader(fr);    
            String i;
         while((i=br.readLine())!=null){ 

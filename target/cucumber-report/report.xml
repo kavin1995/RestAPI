@@ -1,68 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="15.295" tests="21" skipped="0" failures="0" errors="0">
-<testcase classname="Verifying the git data page" name="Verify the git data details" time="3.224">
+<testsuite name="Cucumber" time="14.581" tests="21" skipped="0" failures="2" errors="0">
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="2.81">
 <system-out><![CDATA[
 Given User should login the page............................................passed
 When User should get the responce...........................................passed
 Then User should verify the responce........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git data details" time="1.524">
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="1.286">
 <system-out><![CDATA[
 Given User should login the page............................................passed
 When User should get the responce...........................................passed
 Then User should verify the responce name...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.467">
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.489">
 <system-out><![CDATA[
 Given User should login the page............................................passed
 When User should get the responce...........................................passed
 Then User should verify the responce id.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.449">
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.463">
 <system-out><![CDATA[
 Given User should login the page............................................passed
 When User should get the responce...........................................passed
 Then User should verify the private.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.537">
+<testcase classname="Verifying the git data page" name="Verify the git data details" time="0.503">
 <system-out><![CDATA[
 Given User should login the page............................................passed
 When User should get the responce...........................................passed
 Then User should verify the fullname........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git create details" time="1.032">
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="1.111">
+<failure type="java.io.FileNotFoundException" message="C:\Jenkins\Packages\RestAPI\Data.txt (The system cannot find the path specified)">
+<![CDATA[java.io.FileNotFoundException: C:\Jenkins\Packages\RestAPI\Data.txt (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
+	at java.base/java.io.FileWriter.<init>(FileWriter.java:66)
+	at org.stepDefinition.StepDefinition.user_should_verify_the_create_reponce(StepDefinition.java:92)
+	at ✽.User should verify the create reponce(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:31)
+]]>
+</failure>
 <system-out><![CDATA[
 Given User should login the page s..........................................passed
 When User should create the responce........................................passed
-Then User should verify the create reponce..................................passed
+Then User should verify the create reponce..................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.415">
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.439">
 <system-out><![CDATA[
 Given User should get the page s............................................passed
 When User should create get the responce....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.436">
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.47">
 <system-out><![CDATA[
 Given User should get the page s............................................passed
 When User should create get the responce....................................passed
 Then User should verify the get reponce.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.458">
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.457">
 <system-out><![CDATA[
 Given User should get the page s............................................passed
 When User should create get the responce....................................passed
 Then User should verify the created reponce name............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.439">
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.538">
 <system-out><![CDATA[
 Given User should get the page s............................................passed
 When User should create get the responce....................................passed
@@ -76,69 +87,80 @@ When User should create get the responce....................................pass
 Then User should verify the create reponce fullname.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.439">
+<testcase classname="Verifying the git data page" name="Verify the git create details" time="0.436">
 <system-out><![CDATA[
 Given User should get the page s............................................passed
 When User should create get the responce....................................passed
 Then User should verify the create avatar_url...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="verify the created webhook" time="0.5">
+<testcase classname="Verifying the git data page" name="verify the created webhook" time="0.005">
+<failure type="java.io.FileNotFoundException" message="C:\Jenkins\Packages\RestAPI\Data.txt (The system cannot find the path specified)">
+<![CDATA[java.io.FileNotFoundException: C:\Jenkins\Packages\RestAPI\Data.txt (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.stepDefinition.StepDefinition.user_should_get_create_the_webhook(StepDefinition.java:253)
+	at ✽.User should get create the webhook(file:///C:/Users/VDI022/eclipse-workspace/RestAPI/src/test/resources/feature/GitHub.feature:63)
+]]>
+</failure>
 <system-out><![CDATA[
-Given User should get create the webhook....................................passed
-When User should send the post request......................................passed
-Then User should verify the responce code...................................passed
+Given User should get create the webhook....................................failed
+When User should send the post request......................................skipped
+Then User should verify the responce code...................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.835">
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.815">
 <system-out><![CDATA[
 Given User should patch the name............................................passed
 When User should create patch the responce..................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.429">
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.425">
 <system-out><![CDATA[
 Given User should  get patch the name.......................................passed
 When User should get patch the responce.....................................passed
 Then User should verify the responce of patch...............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.489">
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.475">
 <system-out><![CDATA[
 Given User should  get patch the name.......................................passed
 When User should get patch the responce.....................................passed
 Then User should verify the responce of patch name..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.451">
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.714">
 <system-out><![CDATA[
 Given User should  get patch the name.......................................passed
 When User should get patch the responce.....................................passed
 Then User should verify the responce of patch avatarurl.....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.487">
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.708">
 <system-out><![CDATA[
 Given User should  get patch the name.......................................passed
 When User should get patch the responce.....................................passed
 Then User should verify the responce of patch fullname......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.473">
+<testcase classname="Verifying the git data page" name="Verify the patch create details" time="0.515">
 <system-out><![CDATA[
 Given User should  get patch the name.......................................passed
 When User should get patch the responce.....................................passed
 Then User should verify the responce of patch path..........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the delete create details" time="0.562">
+<testcase classname="Verifying the git data page" name="Verify the delete create details" time="0.541">
 <system-out><![CDATA[
 Given User should  delete the name..........................................passed
 When User should get delete the responce....................................passed
 Then User should verify the delete code.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verifying the git data page" name="Verify the delete details" time="0.358">
+<testcase classname="Verifying the git data page" name="Verify the delete details" time="0.353">
 <system-out><![CDATA[
 Given User should  get deleted the name.....................................passed
 When User should get deleted the responce...................................passed

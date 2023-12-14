@@ -2,4 +2,7 @@ POINTS:
 =======
 
 1. TO run by a commendline or jenkins => 'mvn test -Dtest=RunnerClass' ==> Runnerclass represent, where need to triger the project.
-2. This testcase has to store the value in notepad by using bufferwriter and bufferreader, Perpose to reade the value from notepad and pass the value for different scenario.
+2. This testcase has to store the value in notepad by using bufferwriter and bufferreader, Perpose to reade the value from notepad 
+   and pass the value for different scenario.
+3. Alternate way to handel the point 2,we can also use the variable name for base class and call the variable name from baseclass
+    to execution class to store the value from one scenario to another scenario
